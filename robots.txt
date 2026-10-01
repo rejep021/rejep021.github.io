@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rejep021.github.io/sitemap.xml

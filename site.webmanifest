@@ -1,0 +1,9 @@
+{
+  "name": "Noreqia Tools",
+  "short_name": "Noreqia",
+  "start_url": "/en/",
+  "display": "standalone",
+  "background_color": "#060913",
+  "theme_color": "#060913",
+  "icons": []
+}
