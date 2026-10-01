@@ -40,4 +40,7 @@ const search=document.getElementById("search"), cards=[...document.querySelector
 let active="all";
 function run(){const q=(search.value||"").toLowerCase();cards.forEach(c=>c.classList.toggle("hide",!((active==="all"||c.dataset.cat===active)&&c.dataset.key.includes(q))))}
 search.addEventListener("input",run);filters.forEach(b=>b.onclick=()=>{filters.forEach(x=>x.classList.remove("active"));b.classList.add("active");active=b.dataset.filter;run()})
-</script></body></html>
+</script><!-- Cloudflare Web Analytics -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"bb062817717a49028bbc4aef1744a52f"}'></script>
+<!-- End Cloudflare Web Analytics -->
+</body></html>
