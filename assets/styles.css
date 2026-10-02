@@ -48,3 +48,44 @@ section[id]{
 .faq{
   padding-bottom:32px;
 }
+/* Noreqia manual AdSense layout */
+.noreqia-ad{
+  width:100%;
+  min-width:0;
+  overflow:hidden;
+  text-align:center;
+  margin:28px 0;
+}
+.noreqia-ad .adsbygoogle{
+  display:block!important;
+  width:100%;
+}
+.noreqia-ad-home-top{
+  margin:4px 0 36px;
+}
+.noreqia-ad-home-mid{
+  grid-column:1 / -1;
+  margin:18px 0;
+}
+.noreqia-ad-tool-after{
+  margin:28px 0 20px;
+}
+.noreqia-ad-tool-bottom{
+  margin:18px 0 20px;
+}
+@media(max-width:620px){
+  .noreqia-ad{
+    margin:22px 0;
+  }
+  .noreqia-ad-home-top{
+    margin:0 0 28px;
+  }
+  .noreqia-ad-home-mid{
+    grid-column:1 / -1;
+    margin:14px 0;
+  }
+  .noreqia-ad-tool-after,
+  .noreqia-ad-tool-bottom{
+    margin:22px 0;
+  }
+}
